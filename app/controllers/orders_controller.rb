@@ -30,6 +30,7 @@ class OrdersController < ApplicationController
     Stripe.api_key = ENV["STRIPE_API_KEY"]
     token = params[:stripeToken]
 
+# NEED TO UPDATE FOR NUMBER OF GUESTS * PRICE
     begin
       charge = Stripe::Charge.create(
         :amount => (@listing.price * 100).floor,
@@ -40,8 +41,9 @@ class OrdersController < ApplicationController
       flash[:danger] = e.message
     end
 
+# NEED TO UPDATE FOR NUMBER OF GUESTS * PRICE
     transfer = Stripe::Transfer.create(
-      :amount => (@listing.price * 95).floor,
+      :amount => (@listing.price * 90).floor,
       :currency => "usd",
       :recipient => @seller.recipient
       )

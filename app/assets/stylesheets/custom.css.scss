@@ -1,10 +1,8 @@
 @import "bootstrap";
 
-body {
-  background-color: #F5F5F1;
-  color: #333333;
-  font-family: Arial, Helvetica, sans-serif;
-}
+/****************************************
+NAVBAR
+*****************************************/
 
 .navbar-default {
   background-color: #EFEFEB;
@@ -22,6 +20,19 @@ body {
   font-size: 14px;
   font-weight: bold;
   color: #0192B5;
+}
+
+body {
+  background-color: #F5F5F1;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+  background-image: url('https://dl.dropboxusercontent.com/s/n8w9l6s88551dfq/jumbotron.jpg');
+  h1, h2 {
+    font-family: guardian-egyptt, georgia, serif;
+  }
 }
 
 .center {
@@ -49,9 +60,24 @@ body {
   }
 }
 
-.jumbotron {
-  background-image: url('https://dl.dropboxusercontent.com/s/n8w9l6s88551dfq/jumbotron.jpg');
-  h1, h2 {
-    font-family: guardian-egyptt, georgia, serif;
-  }
+/** Added padding for navbar **/
+
+body {
+  background-color: #F5F5F1;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 70px;
+}
+  
+
+/****************************************
+FOOTER
+*****************************************/
+
+.footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #000;
 }
