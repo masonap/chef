@@ -10,8 +10,8 @@ NAVBAR
 
 .navbar-default .navbar-brand {
   font-family: guardian-egyptt, georgia, serif;
-  font-weight: 400;
-  color: #d5641c;
+  font-weight: 600;
+  color: #a6c462;
   font-size: 30px;
 }
 
@@ -19,7 +19,7 @@ NAVBAR
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #0192B5;
+  color: #475431;
 }
 
 body {
@@ -27,6 +27,10 @@ body {
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/****************************************
+Jumbotron - need to add image
+*****************************************/
 
 .jumbotron {
   background-image: url('https://dl.dropboxusercontent.com/s/n8w9l6s88551dfq/jumbotron.jpg');
@@ -82,4 +86,55 @@ FOOTER
   color: #000;
 }
 
+/****************************************
+VALUE 3
+*****************************************/
 
+#value3 {
+  color: rgb(79, 79, 79);
+display: block;
+font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+font-size: 13px;
+height: 49px;
+line-height: 18.2000007629395px;
+margin-bottom: 0px;
+margin-left: 58.5px;
+margin-right: 58.5px;
+margin-top: 0px;
+padding-bottom: 40px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 40px;
+text-align: center;
+width: 940px;
+zoom: 1;
+}
+
+/****************************************
+CAROUSEL
+*****************************************/
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}

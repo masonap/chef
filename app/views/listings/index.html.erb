@@ -1,9 +1,14 @@
-<div class="jumbotron">
-  <h1>Have an amazing chef <br>
-      cook for you!</h1>
-  <h2>Your very own personal chef</h2>
-</div>
+<%= render 'layouts/carousel' %>
+<%# trying new carousel
+  <div class="jumbotron">
+    <h1>Have an amazing chef <br>
+        cook for you!</h1>
+    <h2>Your very own personal chef</h2>
+  </div>
+%>
+<%# Need to update values <%= render 'layouts/value3' %> 
 
+<br>
 <%# search functionality %>
 <%= search_form_for @q do |f| %>
     <div class="form-group">
