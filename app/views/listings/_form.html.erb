@@ -34,6 +34,18 @@
     <%= f.text_area :description, class: "form-control" %>
   </div>
   <div class="form-group">
+    <%= f.label :NumberOfCourses, "Number of Courses" %><br>
+    <%= f.text_field :NumberOfCourses, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :MinGuests, "Minimum number of guests" %><br>
+    <%= f.text_field :MinGuests, class: "form-control" %>
+  </div>
+    <div class="form-group">
+    <%= f.label :MaxGuests, "Max number of guests" %><br>
+    <%= f.text_field :MaxGuests, class: "form-control" %>
+  </div>  
+  <div class="form-group">
     <%= f.label :price, "Price per person" %><br>
     <%= f.text_field :price, class: "form-control" %>
   </div>
