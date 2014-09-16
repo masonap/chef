@@ -16,7 +16,6 @@ gem "figaro"
 gem 'devise'
 gem 'stripe'
 gem 'ransack'
-gem 'activeadmin', github: 'activeadmin'
 
 group :production do
   gem 'pg'

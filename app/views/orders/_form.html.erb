@@ -1,11 +1,13 @@
 <div class="row">
   <div class="col-md-4">
-    <div class="thumbnail">
-      <%= image_tag @listing.image.url %>
+    <div class="center">
+      <div class="thumbnail">
+        <%= image_tag @listing.image.url %>
+      </div>
+      <h3><%= @listing.name %></h3>
+      <p><%= "by Chef #{@listing.user.name}" %></p>
+      <h4><%= number_to_currency(@listing.price) %> per person</h4>
     </div>
-    <h3><%= @listing.name %></h3>
-    <p><%= "by Chef #{@listing.user.name}" %></p>
-    <h4><%= number_to_currency(@listing.price) %> per person</h4>
   </div>
   <div class="col-md-8">
 
