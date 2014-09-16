@@ -1,5 +1,6 @@
 Homechef::Application.routes.draw do
 
+  get "pages/faq"
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   devise_for :users
@@ -9,6 +10,7 @@ Homechef::Application.routes.draw do
 
   get "pages/about"
   get "pages/contact"
+  get "pages/faq"
   get 'seller' => "listings#seller"
   get 'sales' => "orders#sales"
   get 'purchases' => "orders#purchases"
